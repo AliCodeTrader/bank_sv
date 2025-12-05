@@ -14,10 +14,15 @@ The communication between client and server is done using JSON over Socket.
 	•	Models: User, Account, Transaction
 
 How to Run
+
 cd bank_server
+
 javac src/model/*.java src/service/*.java src/net/*.java
+
 java -cp src net.BankServer
+
 You should see:
+
 Starting bank server on port 4040
 
 🟣 Client (Flutter macOS)
